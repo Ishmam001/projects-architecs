@@ -15,8 +15,6 @@ body{
 
 header{
     background: rgba(255, 144, 14, 0.1);
-    /* width: 1400px; */
-    /* height: 1322px; */
 }
 
 /* nav bar  */
@@ -263,3 +261,95 @@ header{
     font-size: x-small;
     padding-bottom: 15px;
 }
+/* media quary */
+
+@media only screen  and (max-width:576px) {
+    .banner-img{
+        width: 100%;
+        height: 100%;
+        margin-left: 5px;
+    }
+    /* .banner-img img{
+        width: 10px;
+    } */
+    .banner{
+        width:300px;
+        height: 500px;
+        margin-left: 50px;
+        margin-top: 30px;
+
+    }
+    .nav-container{
+        flex-direction: column;
+        align-items: center;
+        margin: 5px;
+    }
+    header{
+        width: 100%;
+        height: 100%;
+    }
+    .blogs-featurs{
+        flex-direction: column;
+        margin-left: 10px;
+        margin-top: 30px;
+    }
+    .blogs-img{
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center
+    }
+    .featurs-blog {
+        margin-top: 20px;
+        width: 300px;
+        height: 100px;
+        padding: 10px;
+    }
+    .architecs {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .more-featurs-img{
+        width: 200px;
+    }
+    .article {
+        margin-top: 50px;
+        width: 50%;
+        height: 100%;
+    }
+    .featurs-article-images {
+        width: 700px;
+        height: 650px;
+        margin-left: 10px;
+    }
+    
+    .experience-btn {
+        text-align: start;
+        position: relative;
+        top: 8px;
+}
+.stat-items{
+    flex-direction: column;
+}
+.stat-articales {
+    margin-left: 21px;
+    margin-top: 356px;
+}
+.fact-description {
+    width: 300px;
+}
+
+.stat-items {
+    gap: 17px;
+    padding: 25px;
+}
+.brand-logo {
+    flex-direction: column;
+}
+.ad-articals{
+    width: 330px;
+} 
+.contact {
+    gap: 5px;
+    padding: 9px 10px;
+}
+}
+ 
